@@ -1,0 +1,109 @@
+/* desktop */
+
+@media screen and (min-width: 850px) {
+  .header_inner, content, main {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* tablet */
+
+@media screen and (min-width: 650px) and (max-width: 849px) {
+
+  header, .hero {
+    margin: 0 10px 0 10px;
+  }
+
+  .content {
+    margin-top: 20px;
+  }
+
+  .featured_work {
+    margin: 30px 10px 0 10px;
+  }
+
+  .header_logo {
+    height: 50px;
+  }
+
+  .header_name {
+    font-size: 2.1em;
+  }
+
+  .featured_title {
+    font-size: 1.4em;
+  }
+
+  .featured_work_title {
+    font-size: 1.3em;
+  }
+
+}
+
+/* mobile */
+
+@media screen and (max-width: 649px) {
+
+  header {
+    margin: 10px 0 30px 0;
+  }
+
+  .header_inner {
+    height: 75px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .header_logo {
+    height: 47px;
+  }
+
+  .header_name {
+    font-weight: 300;
+    font-size: 1.7em;
+  }
+
+  .header_title {
+    font-weight: 300;
+  }
+
+  .content {
+    margin: 30px 0 0 0;
+  }
+
+  .featured_work {
+    margin: 30px 0 10px 0;
+  }
+
+  .ratio_box.-tv:before {
+    padding-top: 56.25%;
+  }
+
+  .featured_appify {
+    order: 1;
+    width: 100%;
+    padding: 10px 0 0 0;
+  }
+
+  .featured_sunflower {
+    order: 2;
+    width: 100%;
+    padding: 15px 0 0 0;
+  }
+
+  .featured_bokeh {
+    order: 3;
+    width: 100%;
+    padding: 15px 0 0 0;
+  }
+
+  .featured_work_title {
+    padding-top: 20px;
+  }
+
+  .featured_work_url {
+    padding-bottom: 10px;
+  }
+
+}
